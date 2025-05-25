@@ -23,7 +23,6 @@ $stmt->execute($params);
 //fetch the post from the database
 $post = $stmt->fetch();
 
-//var_dump($post);
 ?>
 
 <!DOCTYPE html>

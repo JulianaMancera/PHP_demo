@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])) {
     //prepare the statement
     $stmt = $pdo->prepare($sql);
 
-    //Paramaters
+    //params for prepared statement
     $params = [
         'title' => $title,
         'body' => $body

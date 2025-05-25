@@ -11,7 +11,7 @@
     //Fetch the results
     $posts = $stmt->fetchAll();
 
-    //var_dump($posts);
+  
 
 ?>
 

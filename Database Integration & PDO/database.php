@@ -19,8 +19,9 @@ try {
     echo "Database Connected...";
 
     // You are now connected to the database
-} catch (PDOException $e) {
-    // If there is an error with the connection, catch it here
-    echo "Connection failed: " . $e->getMessage();
-}
+} 
+    catch (PDOException $e) {
+        // If there is an error with the connection, catch it here
+        echo "Connection failed: " . $e->getMessage();
+    }
 ?>

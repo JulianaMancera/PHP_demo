@@ -43,15 +43,13 @@ if (!$id) {
         'title' => $title,
         'body' => $body,
         'id' => $id
-     ];
+        ];
+            //Execute the statement
+            $stmt->execute($params);
 
-        //Execute the statement
-        $stmt->execute($params);
-
-        header('Location: main.php');
-        exit;
-        }
-
+            header('Location: main.php');
+            exit;
+            }
 ?>
 
 <!DOCTYPE html>

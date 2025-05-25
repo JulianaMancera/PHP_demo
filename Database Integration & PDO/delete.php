@@ -16,5 +16,5 @@ if ($isDeleteRequest) {
     $stmt->execute($params);
 
     header('Location: main.php');
-}
+    }
 ?>
